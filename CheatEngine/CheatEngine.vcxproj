@@ -224,6 +224,9 @@
     <Deploy>
       <DeploymentType>CopyToHardDrive</DeploymentType>
     </Deploy>
+    <PreBuildEvent>
+      <Command>"$(ProjectDir)XeCrypt.exe"</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_LTCG|Xbox 360'">
     <ClCompile>

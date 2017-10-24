@@ -1,0 +1,27 @@
+﻿Build started 10/23/2017 9:40:55 PM.
+     1>Project "E:\CheatEngine\CheatEngine\CheatEngine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\CheatEngine.unsuccessfulbuild".
+       PreBuildEvent:
+         "E:\CheatEngine\CheatEngine\XeCrypt.exe"
+         :VCEnd
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       ImageXex:
+       Skipping target "ImageXex" because all output files are up-to-date with respect to the input files.
+       DeployToHardDrive:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\xbecopy.exe /nologo
+         "/xbox:rgh"
+         "E:\CheatEngine\CheatEngine\Release\CheatEngine.xex" "hdd:\CheatEngine.xex"
+         
+          Xbox 360 TitleCopy Tool (2.0.20871.0)
+         Copyright (c) 2000-2011  Microsoft Corporation.  All rights reserved.
+     1>xbecopy : error X1001: Could not connect to Xbox 360 'rgh'
+     1>Done Building Project "E:\CheatEngine\CheatEngine\CheatEngine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.26
